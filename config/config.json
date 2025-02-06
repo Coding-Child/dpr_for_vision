@@ -1,0 +1,13 @@
+{
+    "lr": 4e-3,
+    "batch_size": 32,
+    "num_epochs": 500,
+    "use_scheduler": true,
+    "warmup_ratio": 0.1,
+    "num_patience": 0,
+    "seed": 42,
+    "checkpoint_dir": "./checkpoints",
+    "root_dir": "./dataset",
+    "train_path": "train_dataset.json",
+    "val_path": "val_dataset.json"
+}
